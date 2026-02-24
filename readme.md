@@ -17,4 +17,4 @@ Bu repoda algoritma analizi dersinde gördüklerimi paylaşıyor olacağım.
 
 ---
 
-> detaylı kod anlatımı için [furkanio.com](https://furkanio.com/donanim/)'a bakabilirsiniz.
+> [furkanio.com](https://furkanio.com/donanim/)'a da bakabilirsiniz.
