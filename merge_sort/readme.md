@@ -28,9 +28,27 @@ Her defasında 2'ye bölerek tek elemana ulaşırız. Kaç adımda tek elemana u
 
 ![merge_sort](./merge_sort_3.webp)
 
-Resimde göründüğü gibi her bir merge işleminde `eleman sayısı - 1` kere karşılaştırma yapılır.
+Resimde göründüğü gibi her bir merge işleminde `eleman sayısı - 1` kere karşılaştırma yapılır. Mesela 2 adet 1 elemanlı diziyi 1 kere karşılaştırırz. 2 adet 2 elemanlı diziyi ise 3 kere karşılaştırırız.
 
-N = 8 için şu çıkarımı yapabiliriz.
+[1,6] ve [4,9] karşılaştırmasına bakalım:
+
+![merge_sort](./merge_sort_4.webp)
+
+#### Resimdekileri adım adım açıklayacak olursak:
+
+- ilk olarak 1 ile 4 karşılaştırılır, 1 yerleştirilir, ilk dizinin indisi artırılır
+- daha sonra 6 ile 4 karşılaştırılır, 4 yerleştirilr, ikinci dizinin indisi artırılır
+- 6 ile 9 karşılaştırılır, 6 yerleştirilir.
+- son kalan eleman direkt yerleştirilir,
+
+Bu merge işleminde `4 adet eleman` var, yapılan karşılaştırma `4-1 = 3`'tür.
+
+```bash
+merge işlemindeki karşılaştırma sayısı = eleman sayısı - 1;
+```
+
+
+#### N = 8 için şu çıkarımı yapabiliriz.
 
 - ilk birleştirmede 4 karşılaştırma      => 8-4 = 4
 - ikinci birleştirmede 6 karşılaştırma   => 8-2 = 6
