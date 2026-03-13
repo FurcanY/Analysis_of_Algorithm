@@ -8,7 +8,7 @@ Bu repoda algoritma analizi dersinde gördüklerimi paylaşıyor olacağım.
 |2.Hafta|Algoritma Nasıl Analiz Edilir?|
 |3.Hafta|[Merge Sort](./merge_sort/readme.md)|
 |4.Hafta|[Quick Sort](./quick_sort/readme.md)|
-|5.Hafta|---|
+|5.Hafta|[Balanced Recursion Tree](./balanced_recursion_tree/readme.md)|
 |6.Hafta|---|
 |7.Hafta|---|
 |8.Hafta|---|
