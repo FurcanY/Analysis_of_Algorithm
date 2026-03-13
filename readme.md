@@ -7,7 +7,7 @@ Bu repoda algoritma analizi dersinde gördüklerimi paylaşıyor olacağım.
 |1.Hafta|Algoritma Analizi Nedir?|
 |2.Hafta|Algoritma Nasıl Analiz Edilir?|
 |3.Hafta|[Merge Sort](./merge_sort/readme.md)|
-|4.Hafta|---|
+|4.Hafta|[Quick Sort](./quick_sort/readme.md)|
 |5.Hafta|---|
 |6.Hafta|---|
 |7.Hafta|---|

@@ -7,7 +7,7 @@ Divide and conquer (böl ve yönet) mantığını kullanır.
 
 ## Örnek
 
-![merge_sort](./merge_sort_1.webp)
+![merge_sort](./images/merge_sort_1.webp)
 
 Resime bakarak tek tek analiz edelim.
 
@@ -20,19 +20,19 @@ Resime bakarak tek tek analiz edelim.
 
 **Algoritma analizini çıkaralım.**
 
-![merge_sort](./merge_sort_2.webp)
+![merge_sort](./images/merge_sort_2.webp)
 
 Her defasında 2'ye bölerek tek elemana ulaşırız. Kaç adımda tek elemana ulaştığımızı `k` ile ifade edelim. Resimdeki örnek için `N=8`elemanlı bir dizide tek elemana ulaşmak için 3 kere ikiye bölme işlemi yapılır.
 
 `k = log2(N)` formülü ile bunu bulabiliriz. Aslında bu `k` değeri bize kaç defa merge (birleştirme) yapacağımızın değerini verir. Bu değer ile her bir adımda kaç adet karşılaştırma yaptığımızı çarparsak toplam karşılaştırma sayısını buluruz.
 
-![merge_sort](./merge_sort_3.webp)
+![merge_sort](./images/merge_sort_3.webp)
 
 Resimde göründüğü gibi her bir merge işleminde `eleman sayısı - 1` kere karşılaştırma yapılır. Mesela 2 adet 1 elemanlı diziyi 1 kere karşılaştırırz. 2 adet 2 elemanlı diziyi ise 3 kere karşılaştırırız.
 
 [1,6] ve [4,9] karşılaştırmasına bakalım:
 
-![merge_sort](./merge_sort_4.webp)
+![merge_sort](./images/merge_sort_4.webp)
 
 #### Resimdekileri adım adım açıklayacak olursak:
 
